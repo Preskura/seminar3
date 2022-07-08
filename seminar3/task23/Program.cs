@@ -6,10 +6,10 @@
 namespace task23 {
     class Program {
         static void Main(string[] args) {
-            int nomberN = Convert.ToInt32(Console.ReadLine());          // Ввод длины последовательности:
+            int numberN = Convert.ToInt32(Console.ReadLine());          // Ввод длины последовательности:
 
             int counter = 1;
-            while (counter <= nomberN) {                                // Перебор циклом цисел по последовательности
+            while (counter <= numberN) {                                // Перебор циклом цисел по последовательности
                 WriteSquart(counter);
                 counter++;
             }
